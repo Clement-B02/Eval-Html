@@ -1,0 +1,14 @@
+Projet evaluation Html, CSS, Bootstrap et Git
+
+J'ai décider de refaire le site de la piscine municipale d'une ville proche de chez moi que je trouve tres simpliste et pas « jolie a voir ». Mon but etant d'essayer du mieu possible de refaire ce site de facon plus harmonieuse, plus lisible et responsive avec la methode « mobile first » 
+
+Ne pouvant pas récuperer toutes les vrais image du site, je devrais prendre quelque image de piscine ne correspondant pas exactement a celle du site.
+
+Mise en place d'un carrousel, d'un formulaire de contact et d'une implant google map.
+
+Je compte sur ce projet pour tavailler les methodes suivantes : flexbox, grid, tab, form . De plus  cela mepermet de travailler mes media quiery et comment mettre au mieux en avant le site grace au referencement.
+
+Pense bete du projet.
+	- Modifier la navbar
+	- Modifier l'allure general du site
+	
