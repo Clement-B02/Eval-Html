@@ -1,0 +1,249 @@
+/* FONT FAMILY  */
+/* @font-face {
+    font-family: 'Chakra';
+    src: url(/Vitrine/Fonts/ChakraPetch-Regular.ttf);
+}
+@font-face {
+    font-family: 'Dancing';
+    src: url(/Vitrine/Fonts/DancingScript-VariableFont_wght.ttf);
+}  marche pas*/
+
+
+/* BODY  */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(243, 243, 218);
+    text-align: center;
+}
+header{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/Vitrine/Assets/Fond.jpg);
+    background-size: cover;
+    
+}
+section{
+    background: rgb(51, 56, 59);
+}
+.flux{
+    height: 2px;
+    width: 40%;
+    margin: 3vh auto;
+    background-color: #000000;
+    box-shadow: 1px 3px 2px black;
+}
+.trait{
+    height: 2px;
+    width: 40%;
+    margin: 1vh auto;
+    background-color: #000000;
+    box-shadow: 1px 3px 2px black;
+}
+/* NAVBAR  */
+.navbar a{
+    color: rgb(243, 243, 218);
+    text-shadow: 1px 3px 2px black;
+}
+.navbar .logo{
+    font-size: 4em;
+    font-weight: bold;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    text-shadow: 4px 1px 3px black;
+}
+
+.navbar .menu-burger{
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    width: 80px;
+}
+.nav-links{
+    top: 0;
+    right: 0;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.425);
+    backdrop-filter: blur(6px);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -300%;
+    transition: all 0.5s ease;
+}
+.nav-links.mobile-menu{
+    margin-top: 0;
+}
+.nav-links ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.navbar .nav-links ul li{
+    margin: 50px 0;
+    font-size: 2em;
+}
+/* INTRO  */
+.en-tete{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 25vh;
+    font-size: 2em;
+    text-shadow: 5px 1px 3px black;
+}
+h1{
+    margin: 5vh;
+    text-transform: uppercase;
+    text-align: center;
+}
+.en-tete h3{
+    margin: 5vh;
+    text-align: center;
+    text-shadow: 1px 3px 2px black;
+    color: rgb(243, 243, 218);
+
+}
+/* SECTION VACANCES    */
+.aquagym-vacance{
+    background: url(/Vitrine/Assets/aquagym.jpg) no-repeat;
+    background-size: cover;
+    height: 15vh;
+    width: 70vw;
+    margin: 30px 15vw;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 3px 2px black;
+}
+p{
+    text-align: center;
+    padding: 2vh;
+}
+h2{
+    padding: 2vh;
+    text-transform: uppercase;
+    color: #6222F1;
+}
+h3{
+    padding-top: 2vh;
+    font-size: 1.5em;
+    text-shadow: 1px 3px 2px black;
+    color: #2249F1;
+}
+.aquagym-velo{
+    background: url(/Vitrine/Assets/Aquabike.jpg) no-repeat;
+    background-size: cover;
+    height: 15vh;
+    width: 70vw;
+    margin: 30px 15vw;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 3px 2px black;
+}
+h4{
+    font-size: 0.8em;
+    font-style: italic;
+    padding: 1vh;
+    padding-bottom: 2vh;
+}
+small{
+    font-style: italic;
+    padding: 1vh;
+    color: #F12249;
+}
+.stage{
+    padding-bottom: 2vh;
+}
+/* MODULE GONFLABLE  */
+.module-goflable{
+    background: url(/Vitrine/Assets/imageP.jpg) no-repeat;
+    background-size: cover;
+    height: 15vh;
+    width: 70vw;
+    margin: 30px 15vw;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 3px 2px black;
+}
+/* ECOLE DE NATATION  */
+.ecole-natation{
+    background: url(/Vitrine/Assets/ecole.jpg) no-repeat;
+    background-size: cover;
+    height: 15vh;
+    width: 70vw;
+    margin: 30px 15vw;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 3px 2px black;
+}
+/* GOOGLE MAP  */
+.map-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    width: 80vw;
+    margin: 10vw;
+    border-block: 2px solid black;
+    border-radius: 15px;
+   }
+   .map-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+   }
+/* Carrousel  */
+/* #carouselExampleIndicators{
+    width: 50%;
+    margin: auto;
+}
+.carousel-item img{
+    width: 100%;
+    height: auto;
+} */
+/* ************ FOOTER ************  */
+.footer{
+    background: rgb(43, 49, 46);
+    color: #fffAE1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px 0;
+}
+.footer li{
+    padding: 10px 0;
+}
+.footer li a{
+    color: rgb(243, 243, 218);
+} 
+.retour-menu, .aPropos{
+    padding: 0 30px;
+}
+.footer h4{
+    text-shadow: 1px 3px 2px rgb(0, 0, 0);
+}
+.icons{
+    width: 50%;
+}
+.icons a{
+    font-size: 3em;
+    color: #fffAE1;
+    display: grid;
+    justify-items: end;
+    padding: 3vh 0;
+}
+.icons a:hover{
+    transform: scale(1.5);
+    transition: 0.1s;
+}
