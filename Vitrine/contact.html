@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Grandpuits-Piscine</title>
+        <link rel="stylesheet" href="contact.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    </head>
+    <body>
+        <header>
+<!-- CREATION NAVBAR  -->
+            <nav class="navbar">
+                <a href="#" class="logo">Grandpuits</a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="index.html">Page d'accueil</a></li>
+                        <li><a href="tarifs et horraires.html">Tarifs et horaires</a></li>
+                        <li><a href="#">Informations CLUBS</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Liens utiles</a></li>
+                        <li><a href="#">Notre equipe</a></li>
+                    </ul>
+                </div>
+                <img src="/Vitrine/Assets/menu-hamburger.png" alt="menu hamburger" class="menu-burger">
+            </nav>
+        </header>
+        <section class="nous-contacter">
+            <div class="contact">
+                <h2>Nous contacter</h2>
+                <h4>Piscine de Grandpuits</h4>
+                <div class="courrier">
+                    <i class="fa fa-address-book" aria-hidden="true">Par courrier :</i>
+                    <p>Piscine Intercommunale<br>Rue de la valée aux Prieurs<br>77720 GRANDPUITS</p>
+                </div>
+                <div class="mail">
+                    <i class="fa fa-envelope" aria-hidden="true">Par E-mail :</i>
+                    <p>@ : piscine.sivom@wanadoo.fr</p>
+                </div>
+                <div class="phone">
+                    <i class="fa fa-phone" aria-hidden="true">Par téléphone :</i>
+                    <p>Tel : 01.64.08.07.10</p>
+                </div>
+                <div class="trait"></div>
+            </div>
+            <div class="admin">
+                <h4>Site administratif</h4>
+                <div class="bureau">
+                    <i class="fa fa-desktop" aria-hidden="true"> Le bureau :</i>
+                    <p>Piscine Intercommunale<br>Rue de la valée aux Prieurs<br>77720 GRANDPUITS</p>
+                </div>
+                <div class="mail-bureau">
+                    <i class="fa fa-envelope" aria-hidden="true">Par E-mail :</i>
+                    <p>piscine.mormant@wanadoo.fr</p>
+                </div>
+            </div>
+        </section>
+        <section class="formulaire">
+            <h2>Posez nous votre question.</h2>
+            <small>Nous nous efforçons d'y répondre le plus rapidement possible !<br>Merci de votre compréhension.</small>
+            <form action="">
+                <input type="text" placeholder="Votre Nom">
+                <input type="text" placeholder="Votre Prénom">
+                <input type="mail" placeholder="Votre adresse mail">
+                <textarea cols="30" rows="10">Votre message ici ...</textarea>
+                <input type="submit" class="btn-submit" value="Valider">
+            </form>
+        </section>
+        <footer>
+            <div class="footer">
+                <div class="retour-menu">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="index.html">Page d'accueil</a></li>
+                        <li><a href="tarifs et horraires.html">Tarifs et horraires</a></li>
+                        <li><a href="#">Informations CLUBS</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Liens utiles</a></li>
+                        <li><a href="#">Notre équipe</a></li>
+                    </ul>
+                </div>
+                <div class="aPropos">
+                    <h4>A propos</h4>
+                    <ul>
+                        <li><a href="#">Mentions légales</a></li>
+                        <li><a href="#">Politique de confidentialité</a></li>
+                        <li><a href="#">Plan du site</a></li>
+                    </ul>
+                </div>
+                <div class="icons">
+                    <a href="https://www.facebook.com/Piscine-intercommunale-de-Grandpuits-1566205920342230/?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script>
+        const menuBurger = document.querySelector(".menu-burger")
+        const navLinks = document.querySelector(".nav-links")
+        menuBurger.addEventListener("click",()=>(
+        navLinks.classList.toggle("mobile-menu")
+        ))
+    </script>
+</html> 

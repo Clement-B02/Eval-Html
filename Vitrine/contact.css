@@ -1,0 +1,175 @@
+/* ******** BODY *************  */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(243, 243, 218);
+    text-align: center;
+}
+header{
+    height: 30vh;
+    width: 100vw;
+    background-image: url(/Vitrine/Assets/Fond.jpg);
+    background-size: cover;
+    
+}
+section{
+    background: rgb(51, 56, 59);
+}
+.trait{
+    height: 2px;
+    width: 40%;
+    margin: 2vh auto;
+    background-color: #000000;
+    box-shadow: 1px 3px 2px black;
+}
+/* *********** NAVBAR *********  */
+.navbar a{
+    color: rgb(243, 243, 218);
+    text-shadow: 1px 3px 2px black;
+}
+.navbar .logo{
+    font-size: 4em;
+    font-weight: bold;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    text-shadow: 4px 1px 3px black;
+}
+
+.navbar .menu-burger{
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    width: 80px;
+}
+.nav-links{
+    top: 0;
+    right: 0;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.425);
+    backdrop-filter: blur(6px);
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -300%;
+    transition: all 0.5s ease;
+}
+.nav-links.mobile-menu{
+    margin-top: 0;
+}
+.nav-links ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.navbar .nav-links ul li{
+    margin: 30px 0;
+    font-size: 2.5em;
+}
+/* *********** CONTACT **********  */
+h2{
+    text-transform: uppercase;
+    text-shadow: 3px 3px 2px black;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+}
+h4{
+    text-decoration: underline;
+    font-size: 1.2em;
+    padding-top: 0.5vh;
+    padding-bottom: 1vh;
+}
+p{
+    padding: 1vh;
+}
+small{
+    color: #F12249;
+    font-style: italic;
+    font-size: x-small;
+
+}
+.bureau i, .courrier i, .mail i, .phone i, .mail-bureau i{
+    font-size: 2em;
+    color: rgb(21, 129, 201);
+    display: grid;
+    padding-left: 24vw;
+    width: 50%;
+    margin: 20px;
+}
+/* *********** FORMULAIRE ********** */
+.formulaire{
+    color: #fffAE1;
+    padding: 20px 0 60px 0;
+    text-align: center;
+}
+form{
+    margin: 1.5vh auto;
+    max-width: 900px;
+    margin-bottom: 60px;
+}
+input, textarea{
+    border: 1px solid rgb(21, 129, 201);
+    width: 80%;
+    padding: 25px 10px;
+    margin: 1px 0;
+    font-size: 1.5vw;
+    font-family: 'Dancing', cursive;
+    border-radius: 8px;
+}
+textarea{
+    height: 120px;
+    resize: none;
+}
+.btn-submit{
+    font-size: 2vw;
+    background-color: #F12249;
+}
+.btn-submit:hover{
+    background-color: rgb(21, 129, 201);
+    color: #fffAE1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+/* ************ FOOTER ************  */
+.footer{
+    background: rgb(43, 49, 46);
+    color: #fffAE1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px 0;
+}
+.footer li{
+    padding: 10px 0;
+}
+.footer li a{
+    color: rgb(243, 243, 218);
+} 
+.retour-menu, .aPropos{
+    padding: 0 30px;
+}
+.footer h4{
+    text-shadow: 1px 3px 2px rgb(0, 0, 0);
+}
+.icons{
+    width: 50%;
+}
+.icons a{
+    font-size: 3em;
+    color: #fffAE1;
+    display: grid;
+    justify-items: end;
+    padding: 3vh 0;
+}
+.icons a:hover{
+    transform: scale(1.5);
+    transition: 0.1s;
+}
