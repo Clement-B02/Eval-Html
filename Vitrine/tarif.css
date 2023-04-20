@@ -1,0 +1,181 @@
+/* ******** BODY *************  */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(243, 243, 218);
+    text-align: center;
+}
+header{
+    height: 30vh;
+    width: 100vw;
+    background-image: url(/Vitrine/Assets/Fond.jpg);
+    background-size: cover;
+    
+}
+section{
+    background: rgb(51, 56, 59);
+}
+h2, h3{
+    text-shadow: 3px 3px 2px black;
+    font-size: 2em;
+    padding: 2vh;
+    text-transform: uppercase;
+}
+p{
+    padding: 1vh;
+    text-align: start;
+    font-size: smaller;
+    padding-bottom: 2vh;
+}
+h4{
+    font-size: smaller;
+    padding: 1vh;
+    font-style: italic;
+}
+.trait{
+    height: 2px;
+    width: 40%;
+    margin: 2vh auto;
+    background-color: #000000;
+    box-shadow: 1px 3px 2px black;
+}
+/* *********** NAVBAR *********  */
+.navbar a{
+    color: rgb(243, 243, 218);
+    text-shadow: 1px 3px 2px black;
+}
+.navbar .logo{
+    font-size: 4em;
+    font-weight: bold;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    text-shadow: 4px 1px 3px black;
+}
+
+.navbar .menu-burger{
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    width: 80px;
+}
+.nav-links{
+    top: 0;
+    right: 0;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.425);
+    backdrop-filter: blur(6px);
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -300%;
+    transition: all 0.5s ease;
+}
+.nav-links.mobile-menu{
+    margin-top: 0;
+}
+.nav-links ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.navbar .nav-links ul li{
+    margin: 30px 0;
+    font-size: 2.5em;
+}
+/* ************** TABLEAU **********  */
+caption{
+    font-weight: bold;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    text-decoration: underline;
+}
+table{
+    table-layout: fixed;
+    width: 80%;
+    border-collapse: collapse;
+}
+td:nth-child(1){
+    width: 70%;
+}
+td:nth-child(2){
+    width: 30%;
+}
+td:nth-child(3){
+    width: 30%;
+}
+.entree, .abonnement, .location, .aquabike, .horraire{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    font-size: 2em;
+} 
+table, tr, td{
+    border: 2px solid #F12249;
+    padding: 15px 60px;
+}
+.abonnement td{
+    padding: 15px 10px;
+}
+.location td{
+    padding: 15px 10px;
+}
+/* ************ HORRAIRE ************ */
+tbody td:nth-child(1){
+    width: 30%;
+}
+tbody td:nth-child(2){
+    width: 40%;
+}
+tbody td:nth-child(3){
+    width: 40%;
+}
+.horraire td{
+    padding: 20px;
+}
+tfoot{
+    color: #F12249;
+}
+/* ************ FOOTER ************  */
+.footer{
+    background: rgb(43, 49, 46);
+    color: #fffAE1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px 0;
+}
+.footer li{
+    padding: 10px 0;
+}
+.footer li a{
+    color: rgb(243, 243, 218);
+} 
+.retour-menu, .aPropos{
+    padding: 0 30px;
+}
+.footer h4{
+    text-shadow: 1px 3px 2px rgb(0, 0, 0);
+}
+.icons{
+    width: 50%;
+}
+.icons a{
+    font-size: 3em;
+    color: #fffAE1;
+    display: grid;
+    justify-items: end;
+    padding: 3vh 0;
+}
+.icons a:hover{
+    transform: scale(1.5);
+    transition: 0.1s;
+}
